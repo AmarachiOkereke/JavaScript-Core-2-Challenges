@@ -38,7 +38,7 @@ function setTimer(time) {
   }, time);
 }
 
-// When the game finishes, set the winning playe
+// When the game finishes, set the winning player
 function setWinner() {
   if (playerOneScore > playerTwoScore) {
     wonText.innerText = "Player One Won!!";
